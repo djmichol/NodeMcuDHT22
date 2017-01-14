@@ -161,7 +161,7 @@ void loop() {
   client.println("  </head>");
   client.println("  <body>");
 
-  client.print("<h1 style=\"size:12px;\">Temperatura i wilgotnosc powietrza</h1>");
+  client.print("<h1 style=\"size:12px;\">Temperature and humidity</h1>");
 
   // show some data on the webpage and the guage
   client.println("<table><tr><td>");
